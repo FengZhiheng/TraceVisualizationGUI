@@ -18,7 +18,7 @@ class TVWindow(QMainWindow):
     plotList = []
     def __init__(self):
         super(TVWindow, self).__init__()#调用父类的构造函数
-        uic.loadUi(r'../GUI/TraceVisualization.ui', self)
+        uic.loadUi(r'./GUI/TraceVisualization.ui', self)
         self.btnOpenTraceMat.clicked.connect(self.slotOpenTraceMat)
         self.btnCloseAll.clicked.connect(self.slotCloseAll)
         self.setWindowTitle(SOFTWAREVERSION)
