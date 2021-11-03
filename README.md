@@ -5,3 +5,4 @@
 
 
 如何打包？
+pyinstaller -D TVMainWindow.py
