@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>140</width>
+    <width>490</width>
     <height>105</height>
    </rect>
   </property>
@@ -19,6 +19,9 @@
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <widget class="QPushButton" name="btnOpenTraceMat">
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
         <property name="text">
          <string>Trace.mat</string>
         </property>
